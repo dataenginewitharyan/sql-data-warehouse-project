@@ -9,6 +9,7 @@ This project is designed as a portfolio piece to demonstrate industry-standard b
 🏗️ Project Architecture & Requirements
 The project is divided into two primary workstreams: Data Engineering (The Foundation) and Data Analytics (The Insight).
 
+
 1. Data Engineering: Building the Warehouse
 Objective: Develop a centralized SQL Server data warehouse to consolidate siloed sales data into a "Single Source of Truth."
 
@@ -21,6 +22,7 @@ Modeling: Designed a user-friendly schema (Star/Snowflake) optimized for high-pe
 Scope: Focused on current-state reporting (latest dataset) to maintain a lean and efficient storage model.
 
 Documentation: Comprehensive mapping of the data model to assist both technical teams and business stakeholders.
+
 
 2. Data Analytics: BI & Reporting
 Objective: Leverage the structured warehouse to answer critical business questions using advanced SQL.
