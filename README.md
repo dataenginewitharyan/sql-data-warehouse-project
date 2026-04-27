@@ -1,32 +1,29 @@
-# Data Warehouse and Analytics Project
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Data Warehouse & Analytics Project 🚀
+Welcome to the Data Warehouse and Analytics Project! This repository showcases a modern, end-to-end data warehousing solution—from raw data ingestion and ETL processing to the generation of actionable business intelligence.
 
----
-🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+This project is designed as a portfolio piece to demonstrate industry-standard best practices in Data Engineering and SQL-based Analytics.
 
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
+🏗️ Project Architecture & Requirements
+The project is divided into two primary workstreams: Data Engineering (The Foundation) and Data Analytics (The Insight).
 
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
+1. Data Engineering: Building the Warehouse
+Objective: Develop a centralized SQL Server data warehouse to consolidate siloed sales data into a "Single Source of Truth."
 
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
+Data Integration: Merged disparate data from ERP and CRM systems (provided as CSV files).
 
-Scope: Focus on the latest dataset only; historization of data is not required.
+Data Quality & ETL: Implemented cleansing logic to resolve inconsistencies and missing values during the transformation phase.
 
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+Modeling: Designed a user-friendly schema (Star/Snowflake) optimized for high-performance analytical queries.
 
-BI: Analytics & Reporting (Data Analytics)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
+Scope: Focused on current-state reporting (latest dataset) to maintain a lean and efficient storage model.
 
-Customer Behavior
+Documentation: Comprehensive mapping of the data model to assist both technical teams and business stakeholders.
 
-Product Performance
+2. Data Analytics: BI & Reporting
+Objective: Leverage the structured warehouse to answer critical business questions using advanced SQL.
 
-Sales Trends
+Customer Behavior: Segmenting customers and identifying lifetime value.
 
----
+Product Performance: Analyzing which categories drive the highest margins and volume.
+
+Sales Trends: Identifying seasonal patterns and period-over-period growth.
