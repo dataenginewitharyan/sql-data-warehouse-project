@@ -1,7 +1,10 @@
-Data Warehouse & Analytics Project 🚀
-Welcome to the Data Warehouse and Analytics Project! This repository showcases a modern, end-to-end data warehousing solution—from raw data ingestion and ETL processing to the generation of actionable business intelligence.
+# Data Warehouse & Analytics Project 🚀
+
+Welcome to the **Data Warehouse and Analytics Project!** This repository showcases a modern, end-to-end data warehousing solution—from raw data ingestion and ETL processing to the generation of actionable business intelligence.
 
 This project is designed as a portfolio piece to demonstrate industry-standard best practices in Data Engineering and SQL-based Analytics.
+
+---
 
 🏗️ Project Architecture & Requirements
 The project is divided into two primary workstreams: Data Engineering (The Foundation) and Data Analytics (The Insight).
@@ -27,3 +30,6 @@ Customer Behavior: Segmenting customers and identifying lifetime value.
 Product Performance: Analyzing which categories drive the highest margins and volume.
 
 Sales Trends: Identifying seasonal patterns and period-over-period growth.
+
+
+---
