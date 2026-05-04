@@ -58,27 +58,21 @@ The warehouse follows a logical progression to ensure data integrity:
 ### 📂 Repository Structure
 
 sql-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── Data Architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── Data Flow.drawio                # Draw.io file for the data flow diagram
-│   ├── Data Model (* schema).drawio              # Draw.io file for data models (star schema)
-│
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+├── datasets/                 # Raw datasets (ERP and CRM CSV files)
+├── docs/                     # Documentation & Architecture
+│   ├── data_architecture.drawio   # High-level system architecture
+│   ├── data_catalog.md            # Metadata & field descriptions
+│   ├── data_flow.drawio           # ETL pipeline flow diagram
+│   └── data_model_star.drawio     # Dimensional model (Star Schema)
+├── scripts/                  # SQL ETL & Transformation Logic
+│   ├── bronze/               # Data ingestion & raw loading
+│   ├── silver/               # Cleaning & standardization
+│   └── gold/                 # Analytical views & Star Schema
+├── tests/                    # Data validation & quality scripts
+├── .gitignore                # Excluded files (e.g., local logs)
+├── LICENSE                   # Repository licensing
+├── README.md                 # Project overview & setup guide
+└── requirements.txt          # Project dependencies
 
 ## 🔗 Project Resources
 - [Datasets (CSV)](#) 
