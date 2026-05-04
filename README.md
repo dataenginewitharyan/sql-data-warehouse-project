@@ -79,6 +79,6 @@ sql-data-warehouse-project/
 ## 🔗 Project Resources
 - [Datasets (CSV)](https://github.com/dataenginewitharyan/sql-data-warehouse-project/tree/main/datasets) 
 - [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [Project Documentation (Notion)](#)
+- [Project Documentation (Notion)](https://github.com/dataenginewitharyan/sql-data-warehouse-project/tree/main/docs)
 
 ---
