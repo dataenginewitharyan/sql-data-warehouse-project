@@ -55,8 +55,8 @@ The warehouse follows a logical progression to ensure data integrity:
 - **Planning:** Notion (Project Tracking)
 
 ---
-### 📂 Repository Structure
-
+## 📂 Repository Structure
+```text
 sql-data-warehouse-project/
 ├── datasets/                 # Raw datasets (ERP and CRM CSV files)
 ├── docs/                     # Documentation & Architecture
@@ -69,9 +69,9 @@ sql-data-warehouse-project/
 │   ├── silver/               # Cleaning & standardization
 │   └── gold/                 # Analytical views & Star Schema
 ├── tests/                    # Data validation & quality scripts
-├── .gitignore                # Excluded files (e.g., local logs)
+├── .gitignore                # Excluded files
 ├── LICENSE                   # Repository licensing
-├── README.md                 # Project overview & setup guide
+├── README.md                 # Project overview
 └── requirements.txt          # Project dependencies
 
 ## 🔗 Project Resources
