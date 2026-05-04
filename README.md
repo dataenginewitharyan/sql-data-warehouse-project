@@ -56,7 +56,7 @@ The warehouse follows a logical progression to ensure data integrity:
 
 ---
 ## 📂 Repository Structure
-```text
+```
 sql-data-warehouse-project/
 ├── datasets/                 # Raw datasets (ERP and CRM CSV files)
 ├── docs/                     # Documentation & Architecture
@@ -73,6 +73,7 @@ sql-data-warehouse-project/
 ├── LICENSE                   # Repository licensing
 ├── README.md                 # Project overview
 └── requirements.txt          # Project dependencies
+'''
 
 ## 🔗 Project Resources
 - [Datasets (CSV)](#) 
